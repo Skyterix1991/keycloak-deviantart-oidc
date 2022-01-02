@@ -4,7 +4,7 @@ Keycloak DeviantArt Identity Provider plugin.
 
 ## Install
 
-Download `keycloak-deviantart-ear-<version>.ear` from [Releases page](https://github.com/Skyterix1991/keycloak-deviantart-oidc/releases).
+Download `keycloak-deviantart-ear-<version>.ear` from [Releases page](https://github.com/Skyterix1991/keycloak-deviantart-provider/releases).
 Then deploy it into `$KEYCLOAK_HOME/standalone/deployments/` directory.
 
 Or use provided Dockerfile.
