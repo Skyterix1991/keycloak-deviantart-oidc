@@ -1,6 +1,6 @@
 # keycloak-deviant art
 
-Keycloak DeviantArt oidc plugin.
+Keycloak DeviantArt Identity Provider (oidc) plugin.
 
 ## Install
 
