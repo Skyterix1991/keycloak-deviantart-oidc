@@ -1,4 +1,4 @@
-# keycloak-deviant art
+# keycloak-deviantart
 
 Keycloak DeviantArt Identity Provider plugin.
 
