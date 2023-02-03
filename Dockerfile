@@ -1,9 +1,5 @@
-FROM jboss/keycloak:latest
+FROM quay.io/keycloak/keycloak:20.0.3
 
 EXPOSE 8080
 
-ENV KEYCLOAK_USER=admin
-ENV KEYCLOAK_PASSWORD=admin
-#ENV KEYCLOAK_LOGLEVEL=DEBUG
-
-COPY ear/target/keycloak-deviantart-ear-0.0.1-SNAPSHOT.ear /opt/jboss/keycloak/standalone/deployments
+COPY target/keycloak-deviantart-provider-0.0.1-SNAPSHOT.jar /opt/keycloak/providers
